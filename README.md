@@ -19,8 +19,8 @@ Steps to run this project:
 # Documentation
 
 ## Methods
-`app.get('/', function (req, res) {})`:
+`app.get()`:
 GET request to the homepage. \
-`app.post('/', function (req, res) {})`: POST request to the homepage. \
-`app.patch('/', function (req, res) {})`: PATCH request to the homepage used to make changes to the database. \
-`app.delete('/', function (req, res) {})`: DELETE request to remove entries from the database. 
+`app.post()`: POST request to the homepage. \
+`app.patch()`: PATCH request to the homepage used to make changes to the database. \
+`app.delete()`: DELETE request to remove entries from the database. 
