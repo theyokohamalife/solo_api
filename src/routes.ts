@@ -2,22 +2,22 @@ import {DoctorController} from "./controller/DoctorController";
 
 export const Routes = [{
     method: "get",
-    route: "/doctor",
+    route: "/",
     controller: DoctorController,
     action: "all"
 }, {
     method: "get",
-    route: "/doctor/:id",
+    route: "/:id",
     controller: DoctorController,
     action: "one"
 }, {
     method: "post",
-    route: "/doctor",
+    route: "/",
     controller: DoctorController,
     action: "save"
 }, {
     method: "delete",
-    route: "/doctor/:id",
+    route: "/:id",
     controller: DoctorController,
     action: "remove"
 }];

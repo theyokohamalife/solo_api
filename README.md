@@ -15,3 +15,12 @@ Steps to run this project:
 5. Open browser to `localhost:3000/doctor`
 
 ![](images/localhost.png)
+
+# Documentation
+
+## Methods
+`app.get('/', function (req, res) {})`:
+GET request to the homepage. \
+`app.post('/', function (req, res) {})`: POST request to the homepage. \
+`app.patch('/', function (req, res) {})`: PATCH request to the homepage used to make changes to the database. \
+`app.delete('/', function (req, res) {})`: DELETE request to remove entries from the database. 
