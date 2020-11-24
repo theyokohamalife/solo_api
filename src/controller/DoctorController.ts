@@ -22,4 +22,9 @@ export class DoctorController {
         return await this.doctorRepository.delete({id:request.params.id});
     }
 
+    async update(request: Request, response: Response, next: NextFunction) {
+        const { firstName, lastName } = request.query;
+        return await this.doctorRepository.update({ firstName: firstName, lastName: lastName }, request.body);
+    }
+
 }

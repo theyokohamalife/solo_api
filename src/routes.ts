@@ -20,4 +20,9 @@ export const Routes = [{
     route: "/:id",
     controller: DoctorController,
     action: "remove"
+}, {
+    method: "patch",
+    route: "/",
+    controller: DoctorController,
+    action: "update"
 }];

@@ -12,15 +12,45 @@ Steps to run this project:
 2. Setup database settings inside `ormconfig.json` file
 3. Run `yarn install` command
 4. Run `yarn dev` command to start the server
-5. Open browser to `localhost:3000/doctor`
+5. Open browser to `localhost:3000/`
 
-![](images/localhost.png)
 
 # Documentation
 
 ## Methods
 `app.get()`:
-GET request to the homepage. \
-`app.post()`: POST request to the homepage. \
-`app.patch()`: PATCH request to the homepage used to make changes to the database. \
+GET request to the homepage.  
+---
+
+
+![](images/GET.png)
+
+
+`app.post()`: POST request to the homepage.
+---
+
+![](images/POST.png)  
+
+
+`app.update()`: PATCH request to the homepage used to make changes to 
+the database.
+---
+
+![](images/PATCH.png)
+
+
 `app.delete()`: DELETE request to remove entries from the database. 
+---
+
+![](images/DELETE.png)
+
+# Resources
+
+## TypeORM  
+https://typeorm.io
+
+## PostgresQL  
+https://www.postgresql.org
+
+## Express
+https://expressjs.com
