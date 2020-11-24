@@ -23,28 +23,39 @@ Below are the endpoints that can be used with the database through the back-end.
 
 ## Methods
 `app.get()`:
-GET request to the homepage.  
 ---
+
+GET request to the homepage.  
+
 
 
 ![](images/GET.png)
 
 
-`app.post()`: POST request to the homepage.
+`app.post()`: 
 ---
+
+POST request to the homepage.
+
 
 ![](images/POST.png)  
 
 
-`app.update()`: PATCH request to the homepage used to make changes to 
-the database.
+`app.update()`: 
 ---
+
+PATCH request to the homepage used to make changes to 
+the database.
+
 
 ![](images/PATCH.png)
 
 
-`app.delete()`: DELETE request to remove entries from the database. 
+`app.delete()`: 
 ---
+
+DELETE request to remove entries from the database. 
+
 
 ![](images/DELETE.png)
 
