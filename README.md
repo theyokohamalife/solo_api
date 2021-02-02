@@ -1,10 +1,10 @@
 # CRUD API with TypeORM
 
-This was created during my time as a student at Code Chrysalis
+This was created during my time as a student at Code Chrysalis.
 
 It's the start to an application I'd like to make to help English speakers in Japan find doctors that they can easily communicate with.
 
-Please enjoy my first attempt at creating a RESTful API!
+Please enjoy my first attempt at creating a **RESTful API!**
 
 # Usage
 
